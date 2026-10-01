@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" class="static-projects">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ahmed Mhadhbi — Creative Developer</title>
+  <meta name="description" content="Ahmed Mhadhbi is a creative developer crafting digital experiences, interactive products, and ambitious frontend systems at the intersection of design and engineering.">
+  <meta name="theme-color" content="#0c0c0b">
+  <meta name="author" content="Ahmed Mhadhbi">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ahmed Mhadhbi — Creative Developer">
+  <meta property="og:description" content="Digital experiences. Interactive products. Frontend systems with obsessive attention to motion, performance, and detail.">
+  <meta property="og:image" content="/og.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ahmed Mhadhbi — Creative Developer">
+  <meta name="twitter:description" content="Digital experiences. Interactive products. Frontend systems with obsessive attention to motion, performance, and detail.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230c0c0b'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' font-family='Arial Narrow,Arial,sans-serif' font-size='28' font-weight='800' fill='%23efeae1'%3EAM%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script>
+    document.documentElement.classList.add("js");
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.documentElement.classList.add("reduced-motion");
+    }
+  </script>
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__count" id="loaderCount">00</div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+    <div class="loader__meta mono">
+      <span>Ahmed Mhadhbi</span>
+      <span>Portfolio / 26</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav" aria-label="Primary">
+    <a class="nav__brand" href="#top">Ahmed Mhadhbi <span>/ 26</span></a>
+    <div class="nav__links">
+      <a href="#work" data-cursor="GO">Work</a>
+      <a href="#about" data-cursor="GO">About</a>
+      <a href="#contact" data-cursor="GO">Contact</a>
+    </div>
+    <div class="nav__status mono"><i aria-hidden="true"></i> Open to projects</div>
+  </nav>
+
+  <header class="hero" id="top" data-section="top">
+    <div class="hero__grid" id="heroGrid" aria-hidden="true"></div>
+    <div class="hero__edition mono hero__fade" style="--d:.3">Independent practice <span>Design × Engineering</span></div>
+
+    <p class="hero__copy mono hero__fade" style="--d:0.85">
+      <strong>Creative Developer</strong>
+      Digital Experiences<br>
+      Interactive Web / AI / 3D
+    </p>
+
+    <div class="hero__hint mono hero__fade" style="--d:1.15">
+      <span class="hero__hint-line" aria-hidden="true"></span>
+      <span class="hint-mouse">Move your cursor</span>
+      <span class="hint-touch">Drag across the screen</span>
+    </div>
+
+    <h1 class="hero__name display" aria-label="Ahmed Mhadhbi">
+      <span class="wordmark__word" aria-hidden="true" style="--row:0">
+        <b class="wordmark__letter fracture--a" style="--letter:0"><i class="wordmark__measure">A</i><i class="wordmark__piece wordmark__piece--upper">A</i><i class="wordmark__piece wordmark__piece--lower">A</i><i class="wordmark__piece wordmark__piece--fracture">A</i></b>
+        <b class="wordmark__letter" style="--letter:1"><i class="wordmark__measure">H</i><i class="wordmark__piece wordmark__piece--upper">H</i><i class="wordmark__piece wordmark__piece--lower">H</i></b>
+        <b class="wordmark__letter fracture--m" style="--letter:2"><i class="wordmark__measure">M</i><i class="wordmark__piece wordmark__piece--upper">M</i><i class="wordmark__piece wordmark__piece--lower">M</i><i class="wordmark__piece wordmark__piece--fracture">M</i></b>
+        <b class="wordmark__letter" style="--letter:3"><i class="wordmark__measure">E</i><i class="wordmark__piece wordmark__piece--upper">E</i><i class="wordmark__piece wordmark__piece--lower">E</i></b>
+        <b class="wordmark__letter fracture--d" style="--letter:4"><i class="wordmark__measure">D</i><i class="wordmark__piece wordmark__piece--upper">D</i><i class="wordmark__piece wordmark__piece--lower">D</i><i class="wordmark__piece wordmark__piece--fracture">D</i></b>
+      </span>
+      <span class="wordmark__word" aria-hidden="true" style="--row:1">
+        <b class="wordmark__letter" style="--letter:0"><i class="wordmark__measure">M</i><i class="wordmark__piece wordmark__piece--contour">M</i></b>
+        <b class="wordmark__letter" style="--letter:1"><i class="wordmark__measure">H</i><i class="wordmark__piece wordmark__piece--contour">H</i></b>
+        <b class="wordmark__letter" style="--letter:2"><i class="wordmark__measure">A</i><i class="wordmark__piece wordmark__piece--contour">A</i></b>
+        <b class="wordmark__letter" style="--letter:3"><i class="wordmark__measure">D</i><i class="wordmark__piece wordmark__piece--contour">D</i></b>
+        <b class="wordmark__letter" style="--letter:4"><i class="wordmark__measure">H</i><i class="wordmark__piece wordmark__piece--contour">H</i></b>
+        <b class="wordmark__letter" style="--letter:5"><i class="wordmark__measure">B</i><i class="wordmark__piece wordmark__piece--contour">B</i></b>
+        <b class="wordmark__letter" style="--letter:6"><i class="wordmark__measure">I</i><i class="wordmark__piece wordmark__piece--contour">I</i></b>
+      </span>
+    </h1>
+
+    <video
+      id="portrait"
+      class="hero__source"
+      muted
+      playsinline
+      preload="auto"
+      disablepictureinpicture
+      aria-hidden="true"
+      src="videos/portrait.mp4"
+    ></video>
+    <canvas class="hero__portrait" id="portraitCanvas" role="img" aria-label="Color portrait of Ahmed Mhadhbi"></canvas>
+    <p class="hero__services-label mono hero__fade" style="--d:.65">What I bring <span>01 — 06</span></p>
+
+    <ol class="hero__services hero__fade" style="--d:1.05" aria-label="Services">
+      <li><span>01</span><b>Creative Development</b></li>
+      <li><span>02</span><b>Front-End Engineering</b></li>
+      <li><span>03</span><b>3D / WebGL</b></li>
+      <li><span>04</span><b>AI Integrations</b></li>
+      <li><span>05</span><b>Interactive Experiences</b></li>
+      <li><span>06</span><b>Product Design</b></li>
+    </ol>
+
+    <p class="hero__hud mono hero__fade" id="hud" style="--d:1.25" aria-hidden="true"></p>
+    <p class="hero__scroll mono hero__fade" style="--d:1.35">Scroll to explore</p>
+    <div class="hero__foot mono"><span>Ideas into experiences.</span><a href="#work">Selected work <span>↘</span></a><span>Portfolio / 2026</span></div>
+  </header>
+
+  <main>
+    <!-- Work -->
+    <section id="work" data-section="work" aria-label="Selected work">
+      <div class="section-label reveal">
+        <h2>Selected Work</h2>
+        <span class="mono">01 — 03 / 2026</span>
+      </div>
+
+      <div class="work-intro">
+        <h2 class="work-intro__title display reveal">Projects<br>that <em>move.</em></h2>
+        <p class="work-intro__text reveal">
+          Three recent builds — each treated as a short film rather than a thumbnail.
+          Scroll through the choreography.
+        </p>
+      </div>
+
+      <!-- ═══ PROJECT 01 — Cinematic ═══ -->
+      <article class="p1" id="project-01" aria-labelledby="p1-title">
+        <div class="p1__sticky">
+          <div class="p1__num display" aria-hidden="true">01</div>
+
+          <div class="p1__stage">
+            <div class="p1__video-wrap" id="p1VideoWrap">
+              <video
+                id="vid1"
+                muted
+                playsinline
+                loop
+                preload="metadata"
+                data-src="videos/vid1.mp4"
+                poster="assets/project-01.webp"
+                aria-label="Screen recording of the Aurea beauty and wellness website"
+              ></video>
+              <div class="p1__veil" id="p1Veil" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <div class="p1__info" id="p1Info">
+            <div>
+              <p class="mono" style="color:var(--ink-mute);margin-bottom:0.75rem">Project 01 — Selected Work</p>
+              <h3 class="p1__title display" id="p1-title">Aurea</h3>
+            </div>
+            <dl class="p1__meta">
+              <div>
+                <dt class="mono">Overview</dt>
+                <dd>Immersive beauty &amp; wellness site — cinematic scroll, quiet typography, and a tightly choreographed frontend experience.</dd>
+              </div>
+              <div>
+                <dt class="mono">Role</dt>
+                <dd>Design + Development</dd>
+              </div>
+              <div class="p1__tags mono">
+                <span>Next.js</span>
+                <span>WebGL</span>
+                <span>GSAP</span>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </article>
+
+      <!-- ═══ PROJECT 02 — Sticky split ═══ -->
+      <article class="p2" id="project-02" aria-labelledby="p2-title">
+        <div class="section-label" style="border-top:none;padding-top:10vh">
+          <span class="mono" style="color:var(--ink-mute)">Project 02</span>
+          <span class="mono">Front-End + Motion</span>
+        </div>
+
+        <div class="p2__pin" id="p2Pin">
+          <div class="p2__left">
+            <div>
+              <p class="p2__index mono">02 / 03</p>
+              <h3 class="p2__title display" id="p2-title">Form Study</h3>
+
+              <div class="p2__panels" id="p2Panels">
+                <div class="p2__panel is-active" data-panel="0">
+                  <span class="mono">Chapter 01 — Context</span>
+                  <p>A spatial product gallery — layered cards, depth, and fluid motion that turns a catalog into something you can feel.</p>
+                </div>
+                <div class="p2__panel" data-panel="1">
+                  <span class="mono">Chapter 02 — Challenge</span>
+                  <p>Keep rich media and 3D-leaning presentation fast, readable, and intentional — motion as hierarchy, not noise.</p>
+                </div>
+                <div class="p2__panel" data-panel="2">
+                  <span class="mono">Chapter 03 — Stack</span>
+                  <dl>
+                    <div>
+                      <dt>Role</dt>
+                      <dd>Front-End + Interaction Design</dd>
+                    </div>
+                    <div>
+                      <dt>Technologies</dt>
+                      <dd>React · TypeScript · Motion</dd>
+                    </div>
+                    <div>
+                      <dt>Focus</dt>
+                      <dd>Spatial UI, performance, product storytelling</dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+
+              <div class="p2__progress" id="p2Progress" aria-hidden="true">
+                <span><i></i></span>
+                <span><i></i></span>
+                <span><i></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p2__right">
+            <span class="p2__giant display" aria-hidden="true">02</span>
+            <div class="p2__video-frame">
+              <video
+                id="vid2"
+                muted
+                playsinline
+                loop
+                preload="metadata"
+                data-src="videos/vid2.mp4"
+                poster="assets/project-02.webp"
+                aria-label="Screen recording of an interactive product gallery interface"
+              ></video>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ═══ PROJECT 03 — Frame expand ═══ -->
+      <article class="p3" id="project-03" aria-labelledby="p3-title">
+        <div class="p3__sticky">
+          <div class="p3__num display" aria-hidden="true">03</div>
+
+          <aside class="p3__detail p3__detail--left" id="p3Left">
+            <span class="mono">Project 03</span>
+            <h3 id="p3-title">Mahdia Paths</h3>
+            <p>A destination platform for Mahdia — rent, buy, or holiday — guided through a clear three-path search experience.</p>
+          </aside>
+
+          <div class="p3__chrome" id="p3Chrome">
+            <div class="p3__bar" id="p3Bar">
+              <span class="p3__dot" aria-hidden="true"></span>
+              <span class="p3__dot" aria-hidden="true"></span>
+              <span class="p3__dot" aria-hidden="true"></span>
+              <span class="p3__url">mahdia / one search, three paths</span>
+            </div>
+            <div class="p3__screen">
+              <video
+                id="vid3"
+                muted
+                playsinline
+                loop
+                preload="metadata"
+                data-src="videos/vid3.mp4"
+                poster="assets/project-03.webp"
+                aria-label="Screen recording of the Mahdia destination and property platform"
+              ></video>
+            </div>
+          </div>
+
+          <aside class="p3__detail p3__detail--right" id="p3Right">
+            <span class="mono">The challenge</span>
+            <p>Guide people from a single question into the right path — without making the interface feel like a form.</p>
+          </aside>
+
+          <div class="p3__footer-meta mono" id="p3Meta">
+            <div>
+              <span class="mono">Role</span>
+              Interactive Development
+            </div>
+            <div>
+              <span class="mono">Stack</span>
+              Frontend · Motion · Product UI
+            </div>
+            <div>
+              <span class="mono">Year</span>
+              2026
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about" data-section="about">
+      <div class="about__label mono reveal"><span>02 / Behind the work</span><span>Design instinct. Engineering precision.</span></div>
+      <h2 class="about__headline display reveal">
+        I build digital experiences that <em>people remember.</em>
+      </h2>
+
+      <div class="about__grid">
+        <div class="about__copy reveal">
+          <p class="lead">
+            Creative developer working between design and engineering: interactive sites,
+            WebGL scenes and AI-driven products, built with obsessive attention to motion,
+            performance and detail.
+          </p>
+          <p>Approach — prototype early, choreograph everything, ship at 60fps.</p>
+        </div>
+
+        <ul class="about__caps reveal">
+          <li>Creative Development<span>01</span></li>
+          <li>Front-End Engineering<span>02</span></li>
+          <li>3D / WebGL<span>03</span></li>
+          <li>AI Integrations<span>04</span></li>
+          <li>Interactive Experiences<span>05</span></li>
+          <li>Product Design<span>06</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Stack -->
+    <section class="stack" id="stack" aria-label="Technologies">
+      <div class="section-label reveal" style="border:none;padding-top:0">
+        <h2>Capabilities</h2>
+        <span class="mono">Tools I ship with</span>
+      </div>
+
+      <div class="stack__inner reveal">
+        <div class="stack__col">
+          <h3 class="mono">Frontend</h3>
+          <ul>
+            <li>Next.js</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Three.js</li>
+          </ul>
+        </div>
+        <div class="stack__col">
+          <h3 class="mono">Design &amp; Motion</h3>
+          <ul>
+            <li>UI Design</li>
+            <li>Motion</li>
+            <li>GSAP</li>
+            <li>Interactive Design</li>
+          </ul>
+        </div>
+        <div class="stack__col">
+          <h3 class="mono">Systems</h3>
+          <ul>
+            <li>Unity</li>
+            <li>AI</li>
+            <li>Automation</li>
+            <li>WebGL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Next.js</span><span>React</span><span>TypeScript</span><span>Three.js</span>
+        <span>GSAP</span><span>Unity</span><span>AI</span><span>Automation</span>
+        <span>Next.js</span><span>React</span><span>TypeScript</span><span>Three.js</span>
+        <span>GSAP</span><span>Unity</span><span>AI</span><span>Automation</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Contact -->
+  <footer class="contact" id="contact" data-section="contact">
+    <p class="contact__label mono">Have a project in mind?</p>
+    <span class="contact__arrow" aria-hidden="true">↗</span>
+    <h2 class="contact__title display">
+      Let's build something<br>people remember.
+    </h2>
+
+    <a
+      class="contact__mail"
+      id="mail"
+      href="mailto:kairodev4@gmail.com"
+      data-cursor="MAIL"
+    >kairodev4@gmail.com</a>
+
+    <div class="footer mono">
+      <span>© 2026 Ahmed Mhadhbi</span>
+      <span>Creative Developer</span>
+      <a href="#top" data-cursor="TOP">Back to top ↑</a>
+    </div>
+
+    <div class="contact__bg" aria-hidden="true">AM</div>
+  </footer>
+
+  <i class="cursor-dot" id="cursorDot" aria-hidden="true"></i>
+  <i class="cursor-ring" id="cursorRing" aria-hidden="true"></i>
+
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
